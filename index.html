@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcolator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function rselt(x) {
+            form.display.value =  form.display.value +x;
+        }
+    </script>
+</head>
+<body>
+        <form action="#" name="form">
+            <input type="text" name="display">
+            <div class="buttom-body">
+                <div class="butt">
+                    <input type="button" value="7" onclick="rselt(this.value)">
+                    <input type="button" value="6" onclick="rselt(this.value)">
+                    <input type="button" value="5" onclick="rselt(this.value)">
+                    <input type="button" value="+" onclick="rselt(this.value)">
+                </div>
+                <div class="butt">
+                    <input type="button" value="4" onclick="rselt(this.value)">
+                    <input type="button" value="3" onclick="rselt(this.value)">
+                    <input type="button" value="2" onclick="rselt(this.value)">
+                    <input type="button" value="-" onclick="rselt(this.value)">
+                </div>
+                <div class="butt">
+                    <input type="button" value="1" onclick="rselt(this.value)">
+                    <input type="button" value="0" onclick="rselt(this.value)">
+                    <input type="button" value="." onclick="rselt(this.value)">
+                    <input type="button" value="/" onclick="rselt(this.value)">
+                </div>
+                <div class="butt">
+                    <input type="button" value="*" onclick="rselt(this.value)">
+                    <input type="button" value="c" onclick="display.value = null">
+                    <input type="button" value="=" onclick="display.value = eval(display.value)">
+                    <input type="button" value="00" onclick="rselt(this.value)">
+                </div>
+            </div>
+        </form>
+</body>
+</html>
